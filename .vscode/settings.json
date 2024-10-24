@@ -1,0 +1,21 @@
+{
+  "[plaintext]": {
+    "editor.formatOnSave": false
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "css.customData": [".vscode/tailwind.json"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "eslint.useFlatConfig": false,
+  "eslint.format.enable": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "svelte.enable-ts-plugin": true
+}
